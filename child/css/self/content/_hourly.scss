@@ -1,0 +1,90 @@
+.hourly-content{
+	width           : 620px;
+	display         : flex;
+	flex-flow       : row wrap;
+	justify-content : space-around;
+	align-items     : flex-start;
+	position        : relative;
+	left            : 0px;
+	padding         : 0;
+	visibility      : visible;
+	.hourly-item{
+		cursor: pointer;
+		width         : 110px;
+		height        : 170px;
+		margin-right  : 5px;
+		padding       : 0 0;
+		margin-bottom : 50px;
+		@include transition(background, .3s, ease-out);
+		&:hover{
+			background: rgba(20,20,20,.3);
+		}
+		*{
+			margin: 0;
+		}
+		.hourly-wind,.hourly-humidity,.hourly-pop{
+			margin-bottom : -5px;
+			opacity       : .7;
+		}
+		.hourly-wind{
+			margin-top : 5px;
+			.wind-unit{
+				font-size : .8em;
+				opacity   : .3;
+			}
+		}
+		.hourly-hudimidy{
+			bottom : 5px;
+		}
+		.hourly-pop{
+			bottom : 5px;
+		}
+		.hourly-clock{
+			font-weight   : 500;
+			opacity       : .2;
+			margin-bottom : -10px;
+			font-size     : 1.0em;
+		}
+		.hourly-max{
+			width       : 30px;
+			font-size   : 1.8em;
+			font-weight : 500;
+		}
+		.hourly-min{
+			width       : 10px;
+			position    : relative;
+			top         : -21px;
+			left        : 30px;
+			font-size   : .8em;
+			font-weight : 200;
+		}
+		.hourl-min,.hour-max{
+			display: inline;
+		}
+		.hourly-cond{
+			position   : relative;
+			margin-top : -20px;
+			left       : -5px;
+			width      : 70px;
+			text-align : center;
+			.hourly-cond-img{
+				width    : 40px;
+				height   : 40px;
+				float    : left;
+				position : relative;
+				left     : 5px;
+			}
+			.hourly-cond-text{
+				width       : 44px;
+				text-align  : center;
+				position    : relative;
+				font-size   : .8em;
+				left        : 3px;
+				line-height : 12px;
+				top         : 3px;
+			}
+		}
+
+	}
+
+}

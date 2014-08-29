@@ -1,0 +1,961 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast10day": 1
+  }
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"7:49 PM PDT",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"sun",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Monday",
+		"fcttext":"A few passing clouds. Low 47F. Winds light and variable.",
+		"fcttext_metric":"A few passing clouds. Low 8C. Winds N at 10 to 15 kph.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Monday Night",
+		"fcttext":"A few passing clouds. Low 47F. Winds light and variable.",
+		"fcttext_metric":"A few passing clouds. Low 8C. Winds N at 10 to 15 kph.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":2,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Tuesday",
+		"fcttext":"Partly cloudy skies. High 66F. Winds NW at 5 to 10 mph.",
+		"fcttext_metric":"Sunshine and clouds mixed. High 19C. Winds NW at 10 to 15 kph.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Partly cloudy skies during the evening will give way to cloudy skies overnight. Low 47F. Winds W at 5 to 10 mph.",
+		"fcttext_metric":"Partly cloudy early with increasing clouds overnight. Low 8C. Winds W at 10 to 15 kph.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":4,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Wednesday",
+		"fcttext":"Rain showers in the morning will evolve into a more steady rain in the afternoon. High 61F. Winds S at 5 to 10 mph. Chance of rain 50%. Rainfall around a quarter of an inch.",
+		"fcttext_metric":"Showers early becoming a steady light rain later in the day. High around 16C. Winds S at 10 to 15 kph. Chance of rain 60%.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Showers early becoming less numerous late. Low 49F. Winds S at 5 to 10 mph. Chance of rain 50%.",
+		"fcttext_metric":"A steady light rain early...then remaining cloudy with a few showers. Low near 10C. Winds S at 10 to 15 kph. Chance of rain 50%.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":6,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Thursday",
+		"fcttext":"Cloudy skies early will become partly cloudy later in the day. High 63F. Winds S at 5 to 10 mph.",
+		"fcttext_metric":"Considerable cloudiness. High 17C. Winds S at 10 to 15 kph.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+		"title":"Thursday Night",
+		"fcttext":"Partly cloudy skies. Low 46F. Winds NNW at 5 to 10 mph.",
+		"fcttext_metric":"Partly cloudy skies. Low 8C. Winds NNW at 10 to 15 kph.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":8,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Friday",
+		"fcttext":"Sunny. High 72F. Winds NNW at 10 to 15 mph.",
+		"fcttext_metric":"A mainly sunny sky. High 22C. Winds NNW at 10 to 15 kph.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":9,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Friday Night",
+		"fcttext":"Clear skies. Low 49F. Winds NNW at 5 to 10 mph.",
+		"fcttext_metric":"A mostly clear sky. Low near 10C. Winds NNW at 10 to 15 kph.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":10,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Saturday",
+		"fcttext":"A mainly sunny sky. High 77F. Winds NNW at 5 to 10 mph.",
+		"fcttext_metric":"A mainly sunny sky. High 25C. Winds NNW at 10 to 15 kph.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":11,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Saturday Night",
+		"fcttext":"A mostly clear sky. Low 51F. Winds N at 5 to 10 mph.",
+		"fcttext_metric":"Clear skies. Low 11C. Winds N at 10 to 15 kph.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":12,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Sunday",
+		"fcttext":"A mainly sunny sky. High 76F. Winds W at 5 to 10 mph.",
+		"fcttext_metric":"A mainly sunny sky. High 25C. Winds W at 10 to 15 kph.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":13,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Sunday Night",
+		"fcttext":"Partly cloudy. Low 52F. Winds SW at 5 to 10 mph.",
+		"fcttext_metric":"Mainly clear early, then a few clouds later on. Low 11C. Winds SW at 10 to 15 kph.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":14,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Monday",
+		"fcttext":"Cloudy skies early, followed by partial clearing. High 71F. Winds SSW at 5 to 10 mph.",
+		"fcttext_metric":"Cloudy early with partial sunshine expected late. High 21C. Winds SSW at 10 to 15 kph.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":15,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Monday Night",
+		"fcttext":"Mostly clear skies. Low near 50F. Winds SW at 5 to 10 mph.",
+		"fcttext_metric":"A few clouds from time to time. Low near 10C. Winds SW at 10 to 15 kph.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":16,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Tuesday",
+		"fcttext":"A few clouds from time to time. High around 70F. Winds SW at 5 to 10 mph.",
+		"fcttext_metric":"Mostly sunny skies. High 21C. Winds SW at 10 to 15 kph.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":17,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Clear skies. Low 49F. Winds E at 5 to 10 mph.",
+		"fcttext_metric":"Clear skies. Low around 10C. Winds E at 10 to 15 kph.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":18,
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"title":"Wednesday",
+		"fcttext":"A mainly sunny sky. High 76F. Winds SW at 5 to 10 mph.",
+		"fcttext_metric":"Mainly sunny. High 25C. Winds SW at 10 to 15 kph.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":19,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Wednesday Night",
+		"fcttext":"A mostly clear sky. Low 51F. Winds NNE at 5 to 10 mph.",
+		"fcttext_metric":"Clear skies. Low 11C. Winds NNE at 10 to 15 kph.",
+		"pop":"10"
+		}
+		]
+		},
+  
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1401156000",
+	"pretty":"7:00 PM PDT on May 26, 2014",
+	"day":26,
+	"month":5,
+	"year":2014,
+	"yday":145,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"May",
+	"monthname_short":"May",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"66",
+		"celsius":"18"
+		},
+		"low": {
+		"fahrenheit":"47",
+		"celsius":"8"
+		},
+		"conditions":"Sun",
+		"icon":"sun",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": null,
+		"mm": null
+		},
+		"qpf_day": {
+		"in": null,
+		"mm": null
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": null,
+		"cm": null
+		},
+		"snow_day": {
+		"in": null,
+		"cm": null
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 0,
+		"dir": "",
+		"degrees": 0
+		},
+		"avewind": {
+		"mph": 0,
+		"kph": 0,
+		"dir": "",
+		"degrees": 0
+		},
+		"avehumidity": 77,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1401242400",
+	"pretty":"7:00 PM PDT on May 27, 2014",
+	"day":27,
+	"month":5,
+	"year":2014,
+	"yday":146,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"May",
+	"monthname_short":"May",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"66",
+		"celsius":"19"
+		},
+		"low": {
+		"fahrenheit":"47",
+		"celsius":"8"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": null,
+		"mm": null
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": null,
+		"cm": null
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 8,
+		"kph": 13,
+		"dir": "NW",
+		"degrees": 325
+		},
+		"avewind": {
+		"mph": 8,
+		"kph": 13,
+		"dir": "NW",
+		"degrees": 325
+		},
+		"avehumidity": 72,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1401328800",
+	"pretty":"7:00 PM PDT on May 28, 2014",
+	"day":28,
+	"month":5,
+	"year":2014,
+	"yday":147,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"May",
+	"monthname_short":"May",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"61",
+		"celsius":"16"
+		},
+		"low": {
+		"fahrenheit":"49",
+		"celsius":"9"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":50,
+		"qpf_allday": {
+		"in": null,
+		"mm": null
+		},
+		"qpf_day": {
+		"in": 0.24,
+		"mm": 6
+		},
+		"qpf_night": {
+		"in": 0.06,
+		"mm": 2
+		},
+		"snow_allday": {
+		"in": null,
+		"cm": null
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 9,
+		"kph": 14,
+		"dir": "S",
+		"degrees": 187
+		},
+		"avewind": {
+		"mph": 9,
+		"kph": 14,
+		"dir": "S",
+		"degrees": 187
+		},
+		"avehumidity": 81,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1401415200",
+	"pretty":"7:00 PM PDT on May 29, 2014",
+	"day":29,
+	"month":5,
+	"year":2014,
+	"yday":148,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"May",
+	"monthname_short":"May",
+	"weekday_short":"Thu",
+	"weekday":"Thursday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"63",
+		"celsius":"17"
+		},
+		"low": {
+		"fahrenheit":"46",
+		"celsius":"8"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":20,
+		"qpf_allday": {
+		"in": null,
+		"mm": null
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": null,
+		"cm": null
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 8,
+		"kph": 13,
+		"dir": "S",
+		"degrees": 185
+		},
+		"avewind": {
+		"mph": 8,
+		"kph": 13,
+		"dir": "S",
+		"degrees": 185
+		},
+		"avehumidity": 79,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1401501600",
+	"pretty":"7:00 PM PDT on May 30, 2014",
+	"day":30,
+	"month":5,
+	"year":2014,
+	"yday":149,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"May",
+	"monthname_short":"May",
+	"weekday_short":"Fri",
+	"weekday":"Friday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":5,
+		"high": {
+		"fahrenheit":"72",
+		"celsius":"22"
+		},
+		"low": {
+		"fahrenheit":"49",
+		"celsius":"9"
+		},
+		"conditions":"Clear",
+		"icon":"sun",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": null,
+		"mm": null
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": null,
+		"cm": null
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "NNW",
+		"degrees": 333
+		},
+		"avewind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "NNW",
+		"degrees": 333
+		},
+		"avehumidity": 69,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1401588000",
+	"pretty":"7:00 PM PDT on May 31, 2014",
+	"day":31,
+	"month":5,
+	"year":2014,
+	"yday":150,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"May",
+	"monthname_short":"May",
+	"weekday_short":"Sat",
+	"weekday":"Saturday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":6,
+		"high": {
+		"fahrenheit":"77",
+		"celsius":"25"
+		},
+		"low": {
+		"fahrenheit":"51",
+		"celsius":"11"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": null,
+		"mm": null
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": null,
+		"cm": null
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 9,
+		"kph": 14,
+		"dir": "NNW",
+		"degrees": 337
+		},
+		"avewind": {
+		"mph": 9,
+		"kph": 14,
+		"dir": "NNW",
+		"degrees": 337
+		},
+		"avehumidity": 69,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1401674400",
+	"pretty":"7:00 PM PDT on June 01, 2014",
+	"day":1,
+	"month":6,
+	"year":2014,
+	"yday":151,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"June",
+	"monthname_short":"Jun",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":7,
+		"high": {
+		"fahrenheit":"76",
+		"celsius":"24"
+		},
+		"low": {
+		"fahrenheit":"52",
+		"celsius":"11"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": null,
+		"mm": null
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": null,
+		"cm": null
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 6,
+		"kph": 10,
+		"dir": "W",
+		"degrees": 273
+		},
+		"avewind": {
+		"mph": 6,
+		"kph": 10,
+		"dir": "W",
+		"degrees": 273
+		},
+		"avehumidity": 74,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1401760800",
+	"pretty":"7:00 PM PDT on June 02, 2014",
+	"day":2,
+	"month":6,
+	"year":2014,
+	"yday":152,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"June",
+	"monthname_short":"Jun",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":8,
+		"high": {
+		"fahrenheit":"71",
+		"celsius":"22"
+		},
+		"low": {
+		"fahrenheit":"50",
+		"celsius":"10"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": null,
+		"mm": null
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": null,
+		"cm": null
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "SSW",
+		"degrees": 197
+		},
+		"avewind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "SSW",
+		"degrees": 197
+		},
+		"avehumidity": 74,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1401847200",
+	"pretty":"7:00 PM PDT on June 03, 2014",
+	"day":3,
+	"month":6,
+	"year":2014,
+	"yday":153,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"June",
+	"monthname_short":"Jun",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":9,
+		"high": {
+		"fahrenheit":"70",
+		"celsius":"21"
+		},
+		"low": {
+		"fahrenheit":"49",
+		"celsius":"9"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": null,
+		"mm": null
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": null,
+		"cm": null
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "SW",
+		"degrees": 236
+		},
+		"avewind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "SW",
+		"degrees": 236
+		},
+		"avehumidity": 72,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1401933600",
+	"pretty":"7:00 PM PDT on June 04, 2014",
+	"day":4,
+	"month":6,
+	"year":2014,
+	"yday":154,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"June",
+	"monthname_short":"Jun",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":10,
+		"high": {
+		"fahrenheit":"76",
+		"celsius":"24"
+		},
+		"low": {
+		"fahrenheit":"51",
+		"celsius":"11"
+		},
+		"conditions":"Clear",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": null,
+		"mm": null
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": null,
+		"cm": null
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "SW",
+		"degrees": 230
+		},
+		"avewind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "SW",
+		"degrees": 230
+		},
+		"avehumidity": 67,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}

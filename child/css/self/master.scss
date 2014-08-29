@@ -1,0 +1,94 @@
+//master.scss file of waflat project
+
+@import 'tool/variables';
+@import 'tool/color';
+@import 'tool/effect';
+@import 'tool/functions';
+@import 'tool/breakpoints';
+
+@import 'content/forecast-switch';
+@import 'content/sub-forecast';
+@import 'content/today';
+@import 'content/footer';
+@import 'content/topbar';
+@import 'content/yesterday';
+@import 'content/hourly';
+@import 'content/nextdays';
+@import 'content/weekend';
+@import 'content/tide';
+@import 'content/saving';
+
+
+body{
+	font-family : 'Source Sans Pro', sans-serif;
+	background  : $wht;
+	color       : #fff;
+	overflow    : hidden;
+	.logo{
+		position: relative;
+		top: 10px;
+		left: 20px;
+	}
+	.ui-autocomplete{
+		height: 200px;
+		overflow-y: scroll;
+	}
+	ul{
+		list-style: none;
+	}
+	hr {
+		opacity: .3;
+	}
+	@media screen and (min-width: 1024px) and (max-width: 1280px) {
+		width  : 1280px;
+		height : 780px;
+	}
+
+}
+main{
+	overflow    : hidden;
+	margin-top  : -100px;
+	margin-left : 100px;
+	height      : 646px;
+	width       : 1000px;
+}
+.forecast-switch{
+	width: 200px;
+}
+.detailed-forecast-wrapper{
+	width       : 700px;
+	height      : 600px;
+	background  : rgba($blk,.8);
+	position    : relative;
+	top         : -20px;
+	left        : -30px;
+	padding-top : 10px;
+}
+/* .search-field{
+	ul{
+		width: 300px;
+		background: #fff;
+	}
+}
+ */
+.top{
+	display         : flex;
+	flex-wrap       : wrap;
+	flex-direction  : column;
+	justify-content : flex-start;
+	position        : absolute;
+	top             : 20px;
+	left            : 50px;
+}
+
+.background{
+	width                 : 100%;
+  height                : 100%;
+	background-repeat     : no-repeat;
+	background-size       : cover;
+	background-position   : center center;
+	/* background-attachment : fixed; */
+	/* position              : fixed; */
+	margin                : 0% 4%;
+	z-index               : -1;
+}

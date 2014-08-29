@@ -1,0 +1,960 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast10day": 1
+  }
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"2:00 PM PDT",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Monday",
+		"fcttext":"Partly cloudy. High of 72F. Winds from the South at 5 to 10 mph.",
+		"fcttext_metric":"Partly cloudy. High of 22C. Winds from the South at 10 to 15 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":1,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Monday Night",
+		"fcttext":"Partly cloudy. Low of 52F. Winds from the SW at 5 to 15 mph.",
+		"fcttext_metric":"Partly cloudy. Low of 11C. Winds from the SW at 5 to 20 km/h.",
+		"pop":"60"
+		}
+		,
+		{
+		"period":2,
+		"icon":"rain",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/rain.gif",
+		"title":"Tuesday",
+		"fcttext":"Overcast with rain. High of 57F. Breezy. Winds from the SSW at 15 to 20 mph. Chance of rain 70%.",
+		"fcttext_metric":"Overcast with rain. High of 14C. Breezy. Winds from the SSW at 20 to 25 km/h. Chance of rain 70%.",
+		"pop":"70"
+		}
+		,
+		{
+		"period":3,
+		"icon":"chancerain",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/chancerain.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Partly cloudy with a chance of rain. Low of 46F. Winds from the SE at 5 to 20 mph. Chance of rain 50%.",
+		"fcttext_metric":"Partly cloudy with a chance of rain. Low of 8C. Breezy. Winds from the SE at 10 to 25 km/h. Chance of rain 50%.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":4,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Wednesday",
+		"fcttext":"Partly cloudy. High of 57F. Winds from the SSE at 5 to 10 mph shifting to the East in the afternoon.",
+		"fcttext_metric":"Partly cloudy. High of 14C. Breezy. Winds from the SSE at 10 to 20 km/h shifting to the East in the afternoon.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":5,
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Mostly cloudy. Low of 45F. Winds less than 5 mph.",
+		"fcttext_metric":"Mostly cloudy. Low of 7C. Winds less than 5 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":6,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Thursday",
+		"fcttext":"Partly cloudy. High of 63F. Winds less than 5 mph.",
+		"fcttext_metric":"Partly cloudy. High of 17C. Winds less than 5 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":7,
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif",
+		"title":"Thursday Night",
+		"fcttext":"Mostly cloudy. Low of 46F. Winds less than 5 mph.",
+		"fcttext_metric":"Mostly cloudy. Low of 8C. Winds less than 5 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":8,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Friday",
+		"fcttext":"Clear. High of 55F. Winds from the South at 5 to 10 mph.",
+		"fcttext_metric":"Clear. High of 13C. Winds from the South at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":9,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Friday Night",
+		"fcttext":"Partly cloudy with a chance of rain. Low of 45F. Winds less than 5 mph. Chance of rain 20%.",
+		"fcttext_metric":"Partly cloudy with a chance of rain. Low of 7C. Winds less than 5 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":10,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Saturday",
+		"fcttext":"Partly cloudy. High of 57F. Winds less than 5 mph.",
+		"fcttext_metric":"Partly cloudy. High of 14C. Winds less than 5 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":11,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Saturday Night",
+		"fcttext":"Partly cloudy. Low of 46F. Winds less than 5 mph.",
+		"fcttext_metric":"Partly cloudy. Low of 8C. Winds less than 5 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":12,
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif",
+		"title":"Sunday",
+		"fcttext":"Mostly cloudy. High of 63F. Winds less than 5 mph.",
+		"fcttext_metric":"Mostly cloudy. High of 17C. Winds less than 5 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":13,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Sunday Night",
+		"fcttext":"Partly cloudy. Low of 46F. Winds from the South at 5 to 10 mph.",
+		"fcttext_metric":"Partly cloudy. Low of 8C. Winds from the South at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":14,
+		"icon":"chancerain",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/chancerain.gif",
+		"title":"Monday",
+		"fcttext":"Partly cloudy with a chance of rain. High of 57F. Winds from the SW at 5 to 10 mph. Chance of rain 40%.",
+		"fcttext_metric":"Partly cloudy with a chance of rain. High of 14C. Winds from the SW at 5 to 15 km/h. Chance of rain 40%.",
+		"pop":"40"
+		}
+		,
+		{
+		"period":15,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Monday Night",
+		"fcttext":"Partly cloudy with a chance of rain. Low of 39F. Winds less than 5 mph. Chance of rain 20%.",
+		"fcttext_metric":"Partly cloudy with a chance of rain. Low of 4C. Winds less than 5 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":16,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Tuesday",
+		"fcttext":"Partly cloudy. High of 64F. Winds less than 5 mph.",
+		"fcttext_metric":"Partly cloudy. High of 18C. Winds less than 5 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":17,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Partly cloudy. Low of 50F. Winds less than 5 mph.",
+		"fcttext_metric":"Partly cloudy. Low of 10C. Winds less than 5 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":18,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Wednesday",
+		"fcttext":"Partly cloudy. High of 64F. Winds less than 5 mph.",
+		"fcttext_metric":"Partly cloudy. High of 18C. Winds less than 5 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":19,
+		"icon":"clear",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/clear.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Clear. Low of 52F. Winds less than 5 mph.",
+		"fcttext_metric":"Clear. Low of 11C. Winds less than 5 km/h.",
+		"pop":"0"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1396936800",
+	"pretty":"11:00 PM PDT on April 07, 2014",
+	"day":7,
+	"month":4,
+	"year":2014,
+	"yday":96,
+	"hour":23,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"April",
+	"monthname_short":"Apr",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Vancouver"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"72",
+		"celsius":"22"
+		},
+		"low": {
+		"fahrenheit":"52",
+		"celsius":"11"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"partlycloudy",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 9,
+		"kph": 14,
+		"dir": "South",
+		"degrees": 174
+		},
+		"avewind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "SSW",
+		"degrees": 198
+		},
+		"avehumidity": 60,
+		"maxhumidity": 79,
+		"minhumidity": 56
+		}
+		,
+		{"date":{
+	"epoch":"1397023200",
+	"pretty":"11:00 PM PDT on April 08, 2014",
+	"day":8,
+	"month":4,
+	"year":2014,
+	"yday":97,
+	"hour":23,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"April",
+	"monthname_short":"Apr",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Vancouver"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"57",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"46",
+		"celsius":"8"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/rain.gif",
+		"skyicon":"mostlycloudy",
+		"pop":70,
+		"qpf_allday": {
+		"in": 0.10,
+		"mm": 2.5
+		},
+		"qpf_day": {
+		"in": 0.08,
+		"mm": 2.0
+		},
+		"qpf_night": {
+		"in": 0.02,
+		"mm": 0.5
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "South",
+		"degrees": 182
+		},
+		"avewind": {
+		"mph": 14,
+		"kph": 22,
+		"dir": "SSW",
+		"degrees": 201
+		},
+		"avehumidity": 79,
+		"maxhumidity": 86,
+		"minhumidity": 69
+		}
+		,
+		{"date":{
+	"epoch":"1397109600",
+	"pretty":"11:00 PM PDT on April 09, 2014",
+	"day":9,
+	"month":4,
+	"year":2014,
+	"yday":98,
+	"hour":23,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"April",
+	"monthname_short":"Apr",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Vancouver"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"57",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"45",
+		"celsius":"7"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"partlycloudy",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "North",
+		"degrees": 355
+		},
+		"avewind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "WSW",
+		"degrees": 255
+		},
+		"avehumidity": 66,
+		"maxhumidity": 82,
+		"minhumidity": 64
+		}
+		,
+		{"date":{
+	"epoch":"1397196000",
+	"pretty":"11:00 PM PDT on April 10, 2014",
+	"day":10,
+	"month":4,
+	"year":2014,
+	"yday":99,
+	"hour":23,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"April",
+	"monthname_short":"Apr",
+	"weekday_short":"Thu",
+	"weekday":"Thursday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Vancouver"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"63",
+		"celsius":"17"
+		},
+		"low": {
+		"fahrenheit":"46",
+		"celsius":"8"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"partlycloudy",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 4,
+		"kph": 6,
+		"dir": "South",
+		"degrees": 177
+		},
+		"avewind": {
+		"mph": 2,
+		"kph": 3,
+		"dir": "ESE",
+		"degrees": 123
+		},
+		"avehumidity": 59,
+		"maxhumidity": 66,
+		"minhumidity": 45
+		}
+		,
+		{"date":{
+	"epoch":"1397282400",
+	"pretty":"11:00 PM PDT on April 11, 2014",
+	"day":11,
+	"month":4,
+	"year":2014,
+	"yday":100,
+	"hour":23,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"April",
+	"monthname_short":"Apr",
+	"weekday_short":"Fri",
+	"weekday":"Friday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Vancouver"
+},
+		"period":5,
+		"high": {
+		"fahrenheit":"55",
+		"celsius":"13"
+		},
+		"low": {
+		"fahrenheit":"45",
+		"celsius":"7"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"mostlysunny",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.01,
+		"mm": 0.3
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.01,
+		"mm": 0.3
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 6,
+		"kph": 10,
+		"dir": "South",
+		"degrees": 182
+		},
+		"avewind": {
+		"mph": 5,
+		"kph": 8,
+		"dir": "SSW",
+		"degrees": 193
+		},
+		"avehumidity": 83,
+		"maxhumidity": 91,
+		"minhumidity": 66
+		}
+		,
+		{"date":{
+	"epoch":"1397368800",
+	"pretty":"11:00 PM PDT on April 12, 2014",
+	"day":12,
+	"month":4,
+	"year":2014,
+	"yday":101,
+	"hour":23,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"April",
+	"monthname_short":"Apr",
+	"weekday_short":"Sat",
+	"weekday":"Saturday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Vancouver"
+},
+		"period":6,
+		"high": {
+		"fahrenheit":"57",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"46",
+		"celsius":"8"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"partlycloudy",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "North",
+		"degrees": 349
+		},
+		"avewind": {
+		"mph": 5,
+		"kph": 8,
+		"dir": "NNW",
+		"degrees": 332
+		},
+		"avehumidity": 74,
+		"maxhumidity": 90,
+		"minhumidity": 58
+		}
+		,
+		{"date":{
+	"epoch":"1397455200",
+	"pretty":"11:00 PM PDT on April 13, 2014",
+	"day":13,
+	"month":4,
+	"year":2014,
+	"yday":102,
+	"hour":23,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"April",
+	"monthname_short":"Apr",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Vancouver"
+},
+		"period":7,
+		"high": {
+		"fahrenheit":"63",
+		"celsius":"17"
+		},
+		"low": {
+		"fahrenheit":"46",
+		"celsius":"8"
+		},
+		"conditions":"Mostly Cloudy",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif",
+		"skyicon":"mostlycloudy",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 6,
+		"kph": 10,
+		"dir": "West",
+		"degrees": 273
+		},
+		"avewind": {
+		"mph": 4,
+		"kph": 6,
+		"dir": "WSW",
+		"degrees": 239
+		},
+		"avehumidity": 63,
+		"maxhumidity": 71,
+		"minhumidity": 57
+		}
+		,
+		{"date":{
+	"epoch":"1397541600",
+	"pretty":"11:00 PM PDT on April 14, 2014",
+	"day":14,
+	"month":4,
+	"year":2014,
+	"yday":103,
+	"hour":23,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"April",
+	"monthname_short":"Apr",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Vancouver"
+},
+		"period":8,
+		"high": {
+		"fahrenheit":"57",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"39",
+		"celsius":"4"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"partlycloudy",
+		"pop":40,
+		"qpf_allday": {
+		"in": 0.09,
+		"mm": 2.3
+		},
+		"qpf_day": {
+		"in": 0.05,
+		"mm": 1.3
+		},
+		"qpf_night": {
+		"in": 0.04,
+		"mm": 1.0
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "SSE",
+		"degrees": 168
+		},
+		"avewind": {
+		"mph": 3,
+		"kph": 5,
+		"dir": "WSW",
+		"degrees": 255
+		},
+		"avehumidity": 73,
+		"maxhumidity": 81,
+		"minhumidity": 53
+		}
+		,
+		{"date":{
+	"epoch":"1397628000",
+	"pretty":"11:00 PM PDT on April 15, 2014",
+	"day":15,
+	"month":4,
+	"year":2014,
+	"yday":104,
+	"hour":23,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"April",
+	"monthname_short":"Apr",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Vancouver"
+},
+		"period":9,
+		"high": {
+		"fahrenheit":"64",
+		"celsius":"18"
+		},
+		"low": {
+		"fahrenheit":"50",
+		"celsius":"10"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"partlycloudy",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 4,
+		"kph": 6,
+		"dir": "South",
+		"degrees": 172
+		},
+		"avewind": {
+		"mph": 3,
+		"kph": 5,
+		"dir": "WSW",
+		"degrees": 242
+		},
+		"avehumidity": 54,
+		"maxhumidity": 71,
+		"minhumidity": 41
+		}
+		,
+		{"date":{
+	"epoch":"1397714400",
+	"pretty":"11:00 PM PDT on April 16, 2014",
+	"day":16,
+	"month":4,
+	"year":2014,
+	"yday":105,
+	"hour":23,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"April",
+	"monthname_short":"Apr",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Vancouver"
+},
+		"period":10,
+		"high": {
+		"fahrenheit":"64",
+		"celsius":"18"
+		},
+		"low": {
+		"fahrenheit":"52",
+		"celsius":"11"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"partlycloudy",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 3,
+		"kph": 5,
+		"dir": "SW",
+		"degrees": 228
+		},
+		"avewind": {
+		"mph": 2,
+		"kph": 3,
+		"dir": "SW",
+		"degrees": 214
+		},
+		"avehumidity": 48,
+		"maxhumidity": 53,
+		"minhumidity": 46
+		}
+		]
+		}
+	}
+}

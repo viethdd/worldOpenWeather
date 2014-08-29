@@ -1,0 +1,296 @@
+{
+  "response": {
+  "version": "0.1",
+  "termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "geolookup": 1
+  }
+  },
+  "location": {
+  "type": "INTLCITY",
+  "country": "FR",
+  "country_iso3166": "FR",
+  "country_name": "France",
+  "state": "",
+  "city": "Paris",
+  "tz_short": "CEST",
+  "tz_long": "Europe/Paris",
+  "lat": "49.02000046",
+  "lon": "2.52999997",
+  "zip": "00000",
+  "magic": "1",
+  "wmo": "07157",
+  "l": "/q/zmw:00000.1.07157",
+  "requesturl": "global/stations/07157.html",
+  "wuiurl": "http://www.wunderground.com/global/stations/07157.html",
+  "nearby_weather_stations": {
+  "airport": {
+  "station": [{
+  "city": "Paris",
+  "state": "",
+  "country": "FR",
+  "icao": "LFPG",
+  "lat": "49.02000046",
+  "lon": "2.52999997"
+  }, {
+  "city": "Paris Le Bourget",
+  "state": "",
+  "country": "FR",
+  "icao": "LFPB",
+  "lat": "48.97000122",
+  "lon": "2.45000005"
+  }, {
+  "city": "Creil",
+  "state": "",
+  "country": "FR",
+  "icao": "LFPC",
+  "lat": "49.25000000",
+  "lon": "2.51999998"
+  }]
+  },
+  "pws": {
+  "station": [{
+  "neighborhood": "",
+  "city": "Gressy",
+  "state": "Ile-de-France",
+  "country": "France",
+  "id": "IILEDEFR55",
+  "distance_km": 11,
+  "distance_mi": 7
+  }, {
+  "neighborhood": "",
+  "city": "CHAUMONTEL",
+  "state": "ILE-DE-FRANCE",
+  "country": "FRANCE",
+  "id": "IILEDEFR62",
+  "distance_km": 13,
+  "distance_mi": 8
+  }, {
+  "neighborhood": "Meteo 93",
+  "city": "Montfermeil",
+  "state": "SEINE SAINT DENIS",
+  "country": "FRANCE",
+  "id": "ISEINESA2",
+  "distance_km": 13,
+  "distance_mi": 8
+  }, {
+  "neighborhood": "VIARMES",
+  "city": "Viarmes",
+  "state": "ILE-DE-FRANCE",
+  "country": "FRANCE",
+  "id": "IILEDEFR46",
+  "distance_km": 16,
+  "distance_mi": 9
+  }, {
+  "neighborhood": "APRSWXNET Paris FR",
+  "city": "Paris Le Bourget",
+  "state": "",
+  "country": "FR",
+  "id": "MD7698",
+  "distance_km": 16,
+  "distance_mi": 9
+  }, {
+  "neighborhood": "",
+  "city": "ROSNY SOUS BOIS",
+  "state": "Île-de-France",
+  "country": "France",
+  "id": "IILEDEFR64",
+  "distance_km": 16,
+  "distance_mi": 10
+  }, {
+  "neighborhood": "",
+  "city": "Villevaude",
+  "state": "FRANCE",
+  "country": "FRANCE",
+  "id": "IFRANCEV2",
+  "distance_km": 16,
+  "distance_mi": 10
+  }, {
+  "neighborhood": "",
+  "city": "Neuilly-sur-Marne",
+  "state": "Ile-de-France",
+  "country": "FRANCE",
+  "id": "IBOBIGNY2",
+  "distance_km": 17,
+  "distance_mi": 10
+  }, {
+  "neighborhood": "",
+  "city": "Eaubonne",
+  "state": "ILE-DE-FRANCE",
+  "country": "FRANCE",
+  "id": "ILEDEFRA7",
+  "distance_km": 19,
+  "distance_mi": 11
+  }, {
+  "neighborhood": "",
+  "city": "Paris - 20eme arrondissement",
+  "state": "ILE DE FRANCE",
+  "country": "FRANCE",
+  "id": "IILEDEFR29",
+  "distance_km": 19,
+  "distance_mi": 11
+  }, {
+  "neighborhood": "Gouvieux, Avily-Saint-Leonard, Orry-La-Ville, Lamorlaye, Coye la Foret",
+  "city": "Chantilly",
+  "state": "Picardie",
+  "country": "FRANCE",
+  "id": "IPICARDI6",
+  "distance_km": 19,
+  "distance_mi": 11
+  }, {
+  "neighborhood": "",
+  "city": "Paris XX",
+  "state": "ILE-DE-FRANCE",
+  "country": "FRANCE",
+  "id": "IILEDEFR60",
+  "distance_km": 20,
+  "distance_mi": 12
+  }, {
+  "neighborhood": "Euro Disney",
+  "city": "Lagny-sur-Marne",
+  "state": "Ile-de-France",
+  "country": "FRANCE",
+  "id": "IILEDEFR47",
+  "distance_km": 21,
+  "distance_mi": 12
+  }, {
+  "neighborhood": "",
+  "city": "PARIS",
+  "state": "ILE DE FRANCE",
+  "country": "FRANCE",
+  "id": "IILEDEFR63",
+  "distance_km": 21,
+  "distance_mi": 12
+  }, {
+  "neighborhood": "",
+  "city": "Argenteuil",
+  "state": "Val d\u0027oise",
+  "country": "France",
+  "id": "IARGENTE1",
+  "distance_km": 21,
+  "distance_mi": 13
+  }, {
+  "neighborhood": "",
+  "city": "Paris-centre",
+  "state": "Paris",
+  "country": "France",
+  "id": "I75003PA1",
+  "distance_km": 23,
+  "distance_mi": 14
+  }, {
+  "neighborhood": "",
+  "city": "Paris",
+  "state": "ILE-DE-FRANCE",
+  "country": "FRANCE",
+  "id": "IILEDEFR28",
+  "distance_km": 24,
+  "distance_mi": 14
+  }, {
+  "neighborhood": "21 RCB PARIS",
+  "city": "PARIS",
+  "state": "FRANCE",
+  "country": "FRANCE",
+  "id": "IFRANCEP2",
+  "distance_km": 24,
+  "distance_mi": 14
+  }, {
+  "neighborhood": "",
+  "city": "Bezons",
+  "state": "VAL D\u0027OISE",
+  "country": "FRANCE",
+  "id": "IVALDOIS2",
+  "distance_km": 24,
+  "distance_mi": 14
+  }, {
+  "neighborhood": "Magny le Hongre",
+  "city": "Magny Le Hongre",
+  "state": "SEINE ET MARNE",
+  "country": "FRANCE",
+  "id": "ISEINEET2",
+  "distance_km": 26,
+  "distance_mi": 16
+  }, {
+  "neighborhood": "Place Balard",
+  "city": "Paris",
+  "state": "ILE-DE-FRANCE",
+  "country": "FRANCE",
+  "id": "IILEDEFR17",
+  "distance_km": 27,
+  "distance_mi": 16
+  }, {
+  "neighborhood": "Sucy en Brie 94",
+  "city": "Sucy-en-Brie",
+  "state": "ILE-DE-FRANCE",
+  "country": "FRANCE",
+  "id": "IILEDEFR58",
+  "distance_km": 27,
+  "distance_mi": 16
+  }, {
+  "neighborhood": "",
+  "city": "Ozoir La Ferriere",
+  "state": "ÎLE-DE-FRANCE",
+  "country": "FRANCE",
+  "id": "ILEDEFRA12",
+  "distance_km": 29,
+  "distance_mi": 17
+  }, {
+  "neighborhood": "Seine et Marne",
+  "city": "Ozoir la Ferriere",
+  "state": "Seine et Marne",
+  "country": "France",
+  "id": "IOZOIRLA3",
+  "distance_km": 29,
+  "distance_mi": 17
+  }, {
+  "neighborhood": "Clamart",
+  "city": "Clamart",
+  "state": "Ile-de-France",
+  "country": "FRANCE",
+  "id": "IHAUTSDE2",
+  "distance_km": 29,
+  "distance_mi": 17
+  }, {
+  "neighborhood": "Quartier du Grillon",
+  "city": "ERAGNY",
+  "state": "IDF",
+  "country": "FRANCE",
+  "id": "IIDFERAG2",
+  "distance_km": 30,
+  "distance_mi": 18
+  }, {
+  "neighborhood": "Pontoise",
+  "city": "Pontoise",
+  "state": "ÎLE-DE-FRANCE",
+  "country": "FRANCE",
+  "id": "ILEDEFRA8",
+  "distance_km": 30,
+  "distance_mi": 18
+  }, {
+  "neighborhood": "",
+  "city": "Eragny",
+  "state": "ILE-DE-FRANCE",
+  "country": "FRANCE",
+  "id": "IILEDEFR44",
+  "distance_km": 30,
+  "distance_mi": 18
+  }, {
+  "neighborhood": "",
+  "city": "Ozoir la Ferriere",
+  "state": "Melun",
+  "country": "France",
+  "id": "IOZOIRLA2",
+  "distance_km": 31,
+  "distance_mi": 18
+  }, {
+  "neighborhood": "Seine et Marne Belle-Croix",
+  "city": "Ozoir la Ferriere",
+  "state": "Melun",
+  "country": "France",
+  "id": "IOZOIRLA1",
+  "distance_km": 31,
+  "distance_mi": 18
+  }]
+  }
+  }
+  }
+}

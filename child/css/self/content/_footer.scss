@@ -1,0 +1,35 @@
+footer{
+	position     : absolute;
+	bottom       : 0px;
+	font-weight  : 100;
+	font-size    : .8em;
+	margin       : 0 auto;
+	text-align   : center;
+	padding      : 0 0;
+	width        : 100%;
+	height       : 30px;
+	background   : rgba($med-gray,1);
+	z-index      : 100;
+	padding-left : 50px;
+	z-index: 10;
+	padding-bottom: 8px;
+	a{
+		margin-left     : 70px;
+		text-decoration : none;
+		color           : #fff;
+		img,span{
+			vertical-align: baseline;
+		}
+	}
+	a:nth-of-type(2){
+		border-bottom: 1px solid rgba(#fff,.5);
+		img{
+			width: 18px;
+			height: 18px;
+			vertical-align: bottom;
+		}
+		span{
+			font-weight: 500;
+		}
+	}
+}

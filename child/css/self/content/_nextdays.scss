@@ -1,0 +1,96 @@
+.bot-content{
+	visibility      : visible;
+	/* width           : 625px; */
+	display         : flex;
+	flex-flow       : row wrap;
+	justify-content : space-center;
+	z-index         : 1;
+	.n-day{
+		height         : 185px;
+		position       : relative;
+		vertical-align : bottom;
+		margin-right   : 13px;
+		margin-bottom  : 40px;
+		/* cursor: pointer; */
+		@include transition(background,.3s,ease-in);
+		&:hover{
+			/* background: rgba(250,250,250,.3); */
+		}
+		@include bp($dlol){//screen min1200
+			width : 112px;
+		}
+		/* @include bp(tol){//screen min992 max1199
+			width : 17%;
+		} */
+		.n-day-date{
+			opacity: .3;
+		}
+		.name-n-day{
+			@media screen and (min-width:1025px){
+				font-size     : 1.1em;
+			}
+
+			@media screen and (min-width:768px) and (max-width:1025px){
+				font-size : .9em;
+			}
+			position: relative;
+			top: -8px;
+			font-weight   : 800;
+			opacity       : .5;
+			margin-bottom : -24px;
+		}
+		.n-day-max{
+			@media screen and (min-width:1025px){
+				font-size     : 2.5em;
+			}
+
+			@media screen and (min-width:768px) and (max-width:1025px){
+				font-size : 2.0em;
+			}
+		}
+		.n-day-min{
+			opacity: .2;
+		}
+		.n-day-max,.n-day-min{
+			display: inline-block;
+		}
+		.n-day-cond-img{
+			width    : 40px;
+			height   : 40px;
+			position : relative;
+			top      : -7px;
+
+		}
+		.n-day-cond-img,.n-day-max{
+			display: block;
+		}
+		.n-day-max,.n-day-min{
+			display: inline-block;
+		}
+		.n-day-cond{
+			width         : 80px;
+			position      : relative;
+			font-size     : 1em;
+			margin-bottom : 5px;
+			line-height   : 17px;
+			top           : -6px;
+			left          : 0px;
+			text-align    : left;
+		}
+		.n-day-wind{
+			opacity  : .5;
+			position : absolute;
+			bottom   : 29px;
+		}
+		.n-day-humidity{
+			opacity  : .5;
+			position : absolute;
+			bottom   : 17px;
+		}
+		.n-day-pop{
+			opacity  : .5;
+			position : absolute;
+			bottom   : 5px;
+		}
+	}
+}

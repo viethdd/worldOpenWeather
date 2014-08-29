@@ -1,0 +1,119 @@
+.top-bar{
+	position        : absolute;
+	top             : -18px;
+	left            : 140px;
+	width           : 17%;
+	background      : rgba(#000,.8);
+	padding-top     : 5px;
+	z-index         : 1;
+	height          : 350px;
+	.time-date{
+		width      : 150px;
+		height     : 40px;
+		position   : relative;
+		left       : -25px;
+		text-align : left;
+		top        : 35px;
+		color      : #fff;
+		.time,.date{
+			width         : 250px;
+			height: 10px;
+			position      : relative;
+			display       : block;
+			margin-bottom : 10px;
+			top           : 0px;
+			color         : $med-gray;
+			font-weight   : bold;
+			@media screen and (min-width:1025px){
+				font-size   : 1.1em;
+			}
+			@media screen and (min-width:768px) and (max-width:1025px){
+				font-size: 1.0em;
+			}
+		}
+		.time{
+			font-weight: 500;
+			.time-text{
+				font-weight: 200;
+			}
+		}
+	}
+	.search-field{
+		height: 40px;
+		position: relative;
+		left: -20%;
+		top: 20px;
+		width: 300px;
+		.search-text{
+			display       : block;
+			border        : 0;
+			background    : none;
+			border-bottom : 2px solid rgba(#fff,.3);
+			box-shadow    : none;
+			border-radius : 0;
+			left: 20px;
+			@media screen and (min-width:1025px){
+				width     : 220px;
+				font-size : 2em;
+				top       : 0px;
+			}
+			@media screen and (min-width:768px) and (max-width:1025px){
+				width     : 60%;
+				font-size : 1.3em;
+				top       : 70px;
+			}
+			position      : relative;
+			font-weight   : medium;
+			&:focus{
+				outline : 0;
+			}
+			&::-webkit-input-placeholder{
+				opacity: .4;
+			}
+		}
+		.search,.closeBtn{
+			position : relative;
+			@media screen and (min-width:1025px){
+				top    : 0px;
+			}
+			@media screen and (min-width:768px) and (max-width:1025px){
+				top    : 00px;
+			}
+			opacity : .4;
+			cursor  : pointer;
+			&:hover{
+				opacity : .8;
+			}
+		}
+		.closeBtn{
+			color     : $lite-red;
+			font-size : 1.3em;
+			cursor    : pointer;
+			position: relative;
+			left: 5px;
+			&:hover{
+				font-size: 1.5em;
+			}
+		}
+		.search{
+
+			@media screen and (min-width:1025px){
+				display: none;
+				top : 10px;
+				left: -30px;
+			}
+			@media screen and (min-width:768px) and (max-width:1025px){
+				width  : 6%;
+				height : 6%;
+				top    : 76px;
+			}
+		}
+		.search-text, .search, .closeBtn{
+			display: inline-block;
+		}
+		.search{
+			display: none;
+		}
+	}
+
+}

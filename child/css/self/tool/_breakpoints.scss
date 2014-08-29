@@ -1,0 +1,49 @@
+$scrn             : "only screen and ";
+$ol               : '(orientation: landscape)';
+$op               : '(orientation: portrait)';
+$tablet-min-width : 768px;
+$tablet-max-width : 1024px;
+$webkit-min-dpr   : '-webkit-min-device-pixel-ratio : 1.5';
+$min-dpr          : 'min-device-pixel-ratio : 1.5';
+
+// Variables' syntax:
+// device-width: dw ---> without this: tested only on desktop
+// device -> size -> orientation
+// devices     : t = tablet, p = phone, d: desktop
+// sizes       : xxs = xtra extra small, xs = extra small, sm = small,
+//               med = medium,lg = large,xlg = xtra large
+// orientations: ol = landscape, op = portrait
+// Exp.: tol ~ tablet landscape
+
+
+//////-----------DESKTOP
+//desktop large: min1800
+$dxlol: $scrn + ' (min-width: '+$screen-xlg-desktop+')';
+//desktop large: min1200
+$dlol: $scrn + ' (min-width:'+ $screen-lg + ')';
+//desktop: min992 max1199
+$dol : $scrn + ' (min-width:'+ $screen-md + ') and (max-width:'+(($screen-lg)-($screen-gap))+')';
+
+
+//////-----------TABLET
+//ipad tablet min768 max991
+$dwtol : $scrn + ' (min-device-width:'+ $screen-sm + ') and (max-device-width:'+(($screen-md)-($screen-gap))+') and '+ ol;
+$dwtop : $scrn + ' (min-device-width:'+ $screen-sm + ') and (max-device-width:'+(($screen-md)-($screen-gap))+') and '+ op;
+$tol   : $scrn + ' (min-width:'+ $screen-sm + ') and (max-width:'+(($screen-md)-($screen-gap))+')';
+
+
+//////-----------PHONE
+//phone min480 max767
+$dwpol : $scrn + ' (min-device-width:'+ $screen-xs + ') and (max-device-width:'+(($screen-sm)-($screen-gap))+') and '+ ol;
+$dwpop : $scrn + ' (min-device-width:'+ $screen-xs + ') and (max-device-width:'+(($screen-sm)-($screen-gap))+') and '+ op;
+$pol   : $scrn + ' (min-width:'+ $screen-xs + ') and (max-width:'+(($screen-sm)-($screen-gap))+')';
+//small phone min320 max479
+$dwpsmol : $scrn + ' (min-device-width:'+$screen-xxs+') and (max-device-width:'+(($screen-xs)-($screen-gap))+') and ' + ol;
+$dwpsmop : $scrn + ' (min-device-width:'+$screen-xxs+') and (max-device-width:'+(($screen-xs)-($screen-gap))+') and ' + op;
+$psmol   : $scrn + ' (min-width:'+$screen-xxs+') and (max-width:'+(($screen-xs)-($screen-gap))+')';
+
+//add dpr
+
+@mixin bp($class) {
+  @media #{$class}{@content}
+}

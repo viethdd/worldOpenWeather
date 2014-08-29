@@ -1,0 +1,101 @@
+ul {
+    list-style-type     : none;
+    width               : 550px;
+    border              : .5px solid gray;
+    -webkit-transition  : all .1s ease-in;
+     -moz-transition    : all .1s ease-in;
+      -ms-transition    : all .1s ease-in;
+       -o-transition    : all .1s ease-in;
+          transition    : all .1s ease-in;
+    /* overflow            : hidden; */
+}
+li {
+    cursor            : pointer;
+    font-weight       : 100;
+    /* font-size         : 1.0em; */
+    color             : gray;
+    width             : 300px;
+    -webkit-transition: all .1s ease-in;
+    -moz-transition   : all .1s ease-in;
+    -ms-transition    : all .1s ease-in;
+    -o-transition     : all .1s ease-in;
+    transition        : all .1s ease-in;
+}
+li:hover{
+  color     : black;
+  background: rgba(10,10,10,.2);
+}
+ .ui-autocomplete {
+    width: 500px;
+    height    : 150px;
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    background   : rgba(100, 100, 100, .5);
+    /*border     : 1px solid black;*/
+    color        : #000;
+    border-radius: 0;
+    font-weight  : normal;
+    font-weight  : 200;
+}
+li a {
+    width        : 500px;
+    padding-left : 50px;
+    padding-right: 250px;
+    margin-left  : 0px;
+}
+.custom-combobox {
+    position: relative;
+    display : inline-block;
+}
+.custom-combobox-toggle {
+    position   : absolute;
+    top        : 0;
+    bottom     : 0;
+    margin-left: -1px;
+    padding    : 0;
+    /* support : IE7 */
+    *height    : 1.7em;
+    *top       : 0.1em;
+}
+.custom-combobox-input {
+    margin : 0;
+    padding: 0.3em;
+}
+.ui-widget {
+    border-radius: none;
+    position     : relative;
+    top          : -120px;
+    left         :-265px;
+    width        : 150px;
+    border-radius: none;
+    border       : none;
+    z-index      : 1000;
+    font-size    : 1.1em;
+}
+#language {
+    position    : relative;
+    left        : -264px;
+    top         : -125px;
+    color       : white;
+    font-weight : 400;
+    /*background: red;*/
+}
+.ui-widget select {
+    width        : 158px;
+    background   : lightblue;
+    color        : black;
+    border-radius: 0;
+    height       : 50px;
+}
+.ui-widget select option {
+    background   : black;
+    color        : white;
+    border-radius: none;
+    width        : 288px;
+    background   : yellow;
+}
+.ui-button-icon-primary, .ui-icon, .ui-icon-triangle-1-s {
+    background-image: url(ui-icons_888888_256x240.png);
+}
