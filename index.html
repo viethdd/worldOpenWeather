@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Open Weather</title>
+  <link rel="stylesheet" href="child/css/vendor/normalize.css">
+  <link rel="stylesheet" href="child/css/vendor/960_16_col.css">
+  <link rel="stylesheet" href="child/css/vendor/jquery-ui-1.9.2.custom.css">
+  <link rel="stylesheet" href="child/css/self/master.min.css">
+  <!-- <link rel="stylesheet" href="child/css/self/master.css"> -->
+
+  <!-- <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,200,600,700,900' rel='stylesheet' type='text/css'> -->
+</head>
+
+<body>
+
+  <a href="#" class="logo"><img src="child/img/logo.png" width="80" height="80" alt=""></a>
+  <ul class="top-bar">
+    <form action="#" class="search-field">
+      <img src="child/img/svg/search.svg" width="32" height="32" class="search">
+      <input class='search-text' placeholder="Input any city" autofocus type="text">
+      <span class="closeBtn">x</span>
+    </form>
+    <div class="time-date">
+      <span class="date"></span>
+      <div class="time"></div>
+    </div>
+  </ul>
+  <main>
+
+  <article class="top">
+    <ul class="forecast-switch-wrapper">
+      <li class="yesterday-switch forecast-switch " data-switch="yesterday">Yesterday</li>
+      <li class="hourly-switch forecast-active forecast-switch" data-switch="hourly">Hourly</li>
+      <li class="five-switch bot-switch forecast-switch" data-switch="bot" data-days="5">5 Days</li>
+      <li class="ten-switch bot-switch  forecast-switch" data-switch="bot" data-days="9">10 Days</li>
+      <li class="weekend-switch forecast-switch" data-switch="weekend">Weekend</li>
+      <!-- <li class="tide-switch  forecast-switch" data-switch="tide">Tide</li> -->
+      <!-- <li class="hurricane-switch forecast-switch" data-switch="hurricane">Hurricane</li> -->
+    </ul>
+    <div class="saving">
+      <div class="save">Save Current City</div>
+      <div class="saving-clear">Clear</div>
+    </div>
+    <ul class="right"></ul>
+  </article>
+  <div class="background">
+  </div>
+  <article class="sub-forecast-wrapper">
+    <div class="top-content">
+      <p class="tempr-content tempr tempr-content-animate"></p>
+      <span class=" tempr min"></span>
+      <div class="unit-switch">
+        <div class="unit unit-active f">&deg;F</div>
+        <hr>
+        <div class="unit c">&deg;C</div>
+      </div>
+      <div class="weather-status-wrapper">
+        <img src="" alt="" width="90" height="90" class="condition-icon">
+        <div class="condition"></div>
+      </div>
+      <div class="condition-wrapper">
+        <p class="wind"></p>
+        <p class="humidity"></p>
+        <p class="pop"></p>
+      </div>
+    </div>
+    <ul class="detailed-forecast-wrapper">
+      <ul class="hourly-content "></ul>
+      <ul class="yesterday-content"></ul>
+      <ul class="bot-content"></ul>
+      <ul class="tide-content"></ul>
+    </ul>
+
+  </article>
+
+
+</main>
+  <footer>
+    <span>Open Weather App . Viet Ho CopyRight&#169;  </span>
+    <a href="http://www.wunderground.com/weather/api/">
+      <img src="child/img/png/wu-logo.png" width="100" alt=""><span>API</span>
+    </a>
+    <a href="" target="_blank" class="photourl">Photo's Link:  <img src="child/img/icon/flickricon.png" alt=""> @<span class="flink"></span> </a>
+  </footer>
+  <script src="child/js/vendor/jquery-2.0.3.js"></script>
+  <script src="child/js/vendor/jquery-ui-1.9.2.custom.min.js"></script>
+  <script src="child/js/self/main_ajax.js"></script>
+  <!-- <script src="child/js/vendor/prefixfree.min.js"></script> -->
+  <script src="//localhost:35729/livereload.js"></script>
+
+</body>
+</html>
